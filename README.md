@@ -1,10 +1,10 @@
 # AFinterviewQ
 
 ## substractLists O(n) - Return a List of Pairs on A but not in B - 
-*substractListsHashSolution - HashSet SOlution - with at O(nm) [m - the pair size mostly (hashcode))- 
+### substractListsHashSolution - HashSet SOlution - with at O(nm) [m - the pair size mostly (hashcode))- 
  if used frequently can be improved to O(n) with a wraper for Pair with Cahing the hashCode result instead of calcualting it evrey time.
-*substractListsShortCode - uses java removeAll - O(n^2)
-*substractListsPlain - nested loop - o(n^2)
+### substractListsShortCode - uses java removeAll - O(n^2)
+### substractListsPlain - nested loop - o(n^2)
 Tests - Checking empty lists, single items, non-intersecting, partial intersection, and full intersection
 Also did some performance testing - Hash won by a landslide... 
 he managed to process 4 milion items lists in 1/3 or better  the time the others took to proccess 40k!
